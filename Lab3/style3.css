@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.maincontent {
+  background-color: rgb(0, 29, 102);
+  padding-bottom: 8px;
+}
+.Tieudelon {
+  color: #ffff;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 21.44px;
+  padding-bottom: 21.44px;
+}
+.Tieudelon,
+.tieudenho {
+  font-family: "Josefin Slab", serif;
+}
+.border {
+  background-color: #ffffff;
+  width: 320px;
+  padding: 20px;
+  margin: 0px auto;
+}
+.tieudenho {
+  color: #00257f;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.cover {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.date {
+  color: rgba(0, 0, 0, 0.67);
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  font-family: "PT Serif", serif;
+  margin-top: 12.8px;
+  margin-bottom: 12.8px;
+}
+.title {
+  color: rgba(0, 0, 0, 0.67);
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  font-family: "PT Serif", serif;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.read_more {
+  color: #001d66;
+  font-size: 13.913px;
+  font-weight: 700;
+  text-align: left;
+  font-family: Josefin Slab;
+}
