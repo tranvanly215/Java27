@@ -1,0 +1,10 @@
+.feature-image {
+  width: 460px;
+  height: 383px;
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 80px;
+}
+..outstandingfuture.reversed .feature-wraper {
+}

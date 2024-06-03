@@ -1,0 +1,55 @@
+.box {
+  padding: 20px;
+}
+.box--1 {
+  background-color: rgba(108, 140, 151, 0.642);
+}
+.box--2 {
+  background-color: blue;
+}
+.box--3 {
+  background-color: rebeccapurple;
+}
+.box--4 {
+  background-color: red;
+}
+.box--5 {
+  background-color: green;
+}
+/* mmặc định đều có psition là statci */
+/* Nd sắp xếp trái phải trên dưới */
+/* cấc giá trịn psition khac nhau khác biệt lớn nhất là container căn theo */
+.box--1 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  /* khon co dinh chieu cao cho thuoc tinh */
+  /* cawn theo khung trinhf duyet */
+  /* Khong hien thi torng lluon thon thuong */
+  /* thuong dung cho nut co dinh tren man hinh dung 4 gia tri */
+  /* tao lop phu cho toan man hinh */
+}
+.box--2 {
+  position: relative;
+  /* Vẫn hiện thi theo luong thong thuong 
+  căn theo vị trí gốc*/
+  /* Dùng để tạo container cho nội dung có postion là absolute
+  hiếm khi dịch chuyển vị trí của Position */
+}
+.parent {
+  position: relative;
+  background-color: darkgoldenrod;
+  height: 400px;
+}
+.box--3 {
+  /* Khong hien thi theo luong thong thuog */
+  /* can theo phan tu cha gan nhat/ phan tu chua no cos position laf fixed hoac absolyte hoac relative */
+  /* Neu khong co thi can theo khung trinh duyet */
+  /* tao lop phu cho 1 the */
+  position: absolute;
+  left: 50;
+  top: 50%;
+}

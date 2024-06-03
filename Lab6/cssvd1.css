@@ -1,0 +1,27 @@
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.drop-buton {
+  display: inline-block;
+  background-color: green;
+  padding: 10px 20px;
+  color: #ffff;
+}
+.drop-menu {
+  display: none;
+  background-color: pink;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin: 0;
+  width: 120px;
+  list-style: none;
+}
+drop-items {
+  padding: 6px 20px;
+}
+/* Psion chi lien quan toi bo cuc vi tri */
+.dropdown:hover .drop-menu {
+  display: block;
+}
