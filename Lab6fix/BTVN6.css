@@ -1,0 +1,163 @@
+.body {
+  background-color: black;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.task_bar {
+  background-color: #0c0c0c;
+  flex-wrap: nowrap;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  gap: 19px;
+}
+.taskbar_menu {
+  background-color: #000000;
+  border-radius: 3px;
+  color: #9ca3af;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  width: 100%;
+  height: 30.8px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.logo {
+  height: 40px;
+  width: 157px;
+  overflow: hidden;
+  object-fit: cover;
+  display: block;
+}
+.task_name {
+  padding: 6.4px 10px;
+}
+.task_name_seach-box {
+}
+.search_box {
+  width: 300px;
+  height: 32px;
+  position: relative;
+  align-items: center;
+  padding-left: 30px;
+  background-color: #1a1a1a;
+}
+.icon {
+  position: absolute;
+  font-size: 20px;
+  right: 0;
+}
+.phim_le:hover {
+  background-color: #1e293b;
+}
+.phim_bo:hover {
+  background-color: #1e293b;
+}
+.hoat_hinh:hover {
+  background-color: #1e293b;
+}
+
+.quoc_gia:hover {
+  background-color: #1e293b;
+}
+.the_loai:hover {
+  background-color: #1e293b;
+}
+
+.trang_chu:hover {
+  background-color: #1e293b;
+}
+.heading {
+  color: #9ca3af;
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 28.8px;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+.artical-thumnail {
+  position: relative;
+}
+.note {
+  position: absolute;
+  width: auto;
+  height: 25px;
+  background: -webkit-linear-gradient(0deg, #f38b44, #fbc50c);
+  color: #fff;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem;
+  font-weight: 500;
+  border-radius: 0 4px 4px 0;
+  border-bottom: 3px solid #f38b44;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  left: 0;
+  bottom: 265px;
+}
+.film_image {
+  width: 168px;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+.Eng_name {
+  color: #9ca3af;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  line-height: 16.8px;
+}
+.viet_name {
+  color: #fdb813;
+  font-size: 1rem;
+  line-height: 19.2px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 3px;
+  padding-right: 30px;
+}
+/*.list_quoc_gia {
+  width: 632px;
+  height: 110px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: auto;
+  margin: auto;
+}*/
+.ten_quoc_gia,
+.ten_the_loai {
+  display: block;
+  width: auto;
+  height: 31px;
+  background-color: #000000;
+  border-radius: 3px;
+  color: #9ca3af;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+.list_quoc_gia,
+.list_the_loai {
+  list-style-type: none;
+  display: none;
+  position: absolute;
+}
+.quoc_gia:hover .list_quoc_gia {
+  display: block;
+}
+.the_loai:hover .list_the_loai {
+  display: block;
+}
+.ten_quoc_gia:hover,
+.ten_the_loai:hover {
+  background-color: #1e293b;
+}
