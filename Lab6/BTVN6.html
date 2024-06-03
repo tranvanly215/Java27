@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập về nhà Lab 6</title>
+    <link rel="stylesheet" href="BTVN6.css" />
+    <link rel="stylesheet" href="grid.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <main class="main">
+      <section class="task_bar display-flex">
+        <div class="logo">
+          <img
+            src="https://phimvsub.cc/wp-content/themes/pchill/img/logo.png"
+            alt="Logo Phim hay"
+            style="width: 131px"
+            class="logo_image"
+          />
+        </div>
+        <div class="taskbar_menu display-flex">
+          <div class="trang_chu task_name">TRANG CHỦ</div>
+          <div class="phim_le task_name task_color">PHIM LẺ</div>
+          <div class="phim_bo task_name task_color">PHIM BỘ</div>
+          <div class="quoc_gia task_name task_color">
+            <p>QUỐC GIA</p>
+            <header class="header1">
+              <ul class="list_quoc_gia">
+                <li class="ten_quoc_gia">Âu Mỹ</li>
+                <li class="ten_quoc_gia">ẤN Độ</li>
+                <li class="ten_quoc_gia">Đài Loan</li>
+                <li class="ten_quoc_gia">Hàn Quốc</li>
+                <li class="ten_quoc_gia">Hồng Kông</li>
+                <li class="ten_quoc_gia">Nhật Bản</li>
+                <li class="ten_quoc_gia">Philipins</li>
+                <li class="ten_quoc_gia">Thái Lan</li>
+                <li class="ten_quoc_gia">Trung Quốc</li>
+                <li class="ten_quoc_gia">Úc</li>
+                <li class="ten_quoc_gia">Quốc Gia khác</li>
+              </ul>
+            </header>
+          </div>
+          <div class="the_loai task_name task_color">
+            <p>THỂ LOẠI</p>
+            <header class="header2">
+              <ul class="list_the_loai">
+                <li class="ten_the_loai">Âm Nhạc</li>
+                <li class="ten_the_loai">Bí Ẩn</li>
+                <li class="ten_the_loai">Chiến Tranh</li>
+                <li class="ten_the_loai">Chính Kịch</li>
+                <li class="ten_the_loai">Cổ Trang</li>
+                <li class="ten_the_loai">Gia Đình</li>
+                <li class="ten_the_loai">Hài Hước</li>
+                <li class="ten_the_loai">Hành Động</li>
+                <li class="ten_the_loai">Hình Sự</li>
+                <li class="ten_the_loai">Học Đường</li>
+                <li class="ten_the_loai">Khoa Học</li>
+                <li class="ten_the_loai">Kinh Dị</li>
+                <li class="ten_the_loai">Kinh Điển</li>
+                <li class="ten_the_loai">Phiêu Lưu</li>
+                <li class="ten_the_loai">Phim 18+</li>
+                <li class="ten_the_loai">Tài Liệu</li>
+                <li class="ten_the_loai">Tâm Lí</li>
+                <li class="ten_the_loai">Thần Thoại</li>
+                <li class="ten_the_loai">Thể Thao</li>
+                <li class="ten_the_loai">Viễn Tưởng</li>
+                <li class="ten_the_loai">Võ Thuật</li>
+              </ul>
+            </header>
+          </div>
+          <div class="hoat_hinh task_name task_color">HOẠT HÌNH</div>
+          <div class="search_box display-flex task_name_seach_box">
+            <p class="ban_can_tim_gii">Bạn cần tìm gì?</p>
+            <i class="fa-solid fa-magnifying-glass icon"></i>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="heading">Phim HOT</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/khi-em-chay-ve-moi-thoi-khong-thumb.jpg"
+                    alt="Khi e chay ve thoi khong"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Present Is Present</p>
+                <h3 class="viet_name">Khi em chạy về mọi thời không</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/du-toi-khong-phai-nguoi-hung-thumb.jpg"
+                    alt="Dù Tôi Không Phải Người Hùng"
+                  />
+                  <span class="note">TẬP 9 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">The Atypical Family (2024)</p>
+                <h3 class="viet_name">Dù Tôi Không Phải Người Hùng</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/dem-lang-man-o-hagwon-thumb.jpg"
+                    alt="Đêm Lãng Mạn Ở Hagwon"
+                  />
+                  <span class="note">TẬP 5 + VIETSUB</span>
+                </div>
+                <span class="Eng_name">The Midnight Romance in...</span>
+                <h3 class="viet_name">Đêm Lãng Mạn Ở Hagwon</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/moi-lien-ket-bi-an-thumb.jpg"
+                    alt="Connection"
+                  />
+                  <span class="note">TẬP 4 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">Connection</p>
+                <h3 class="viet_name">Mối Liên Kết Bí Ẩn</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/khanh-du-nien-phan-2-thumb.jpg"
+                    alt="Khánh Dư Niên (Phần 2)"
+                  />
+                  <span class="note">TẬP 34 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">Joy of Life (Season 2)</p>
+                <p class="viet_name">Khánh Dư Niên (Phần 2)</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/nam-ngoc-khanh-tam-thumb.jpg"
+                    alt="Nam Ngọc Khanh Tâm"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Practice Daughter</p>
+                <h3 class="viet_name">Nam Ngọc Khanh Tâm</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="heading">Phim Lẻ Mới</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://phimvsub.cc/wp-content/themes/pchill/img/noimage.jpg"
+                    alt="Một phần trong ta"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">A Part of You</p>
+                <h3 class="viet_name">Một phần trong ta</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/joker-dien-co-doi-thumb.jpg"
+                    alt="Joker: Điên Có Đôi"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Joker: Folie à Deux</p>
+                <h3 class="viet_name">Joker: Điên Có Đôi</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/kampon-dua-tre-bi-an-thumb.jpg"
+                    alt="Kampon: Đứa Trẻ Bí Ẩn"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <span class="Eng_name">Kampon (2023)</span>
+                <h3 class="viet_name">Kampon: Đứa Trẻ Bí Ẩn</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/gia-dinh-hai-nguoi-thumb.jpg"
+                    alt="Gia Đình Hai Người"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Family of Two</p>
+                <h3 class="viet_name">Gia Đình Hai Người</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/chao-mung-ve-nha-roscoe-jenkins-thumb.jpg"
+                    alt="Chào Mừng Về Nhà, Roscoe Jenkins"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Welcome Home Roscoe Jenkins</p>
+                <p class="viet_name">Chào Mừng Về Nhà, Roscoe Jenkins</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/danh-cap-thumb.jpg"
+                    alt="Đánh Cắp"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Stolen (2024)</p>
+                <h3 class="viet_name">Đánh Cắp</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/sen-buyumeye-bak-thumb.jpg"
+                    alt="Sen Büyümeye Bak"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">In Good Hands 2</p>
+                <h3 class="viet_name">Sen Büyümeye Bak</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://phimvsub.cc/wp-content/themes/pchill/img/noimage.jpg"
+                    alt="Khong-Khaek: Lời Nguyền"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">The Djinn's Curse</p>
+                <h3 class="viet_name">Khong-Khaek: Lời Nguyền</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://phimvsub.cc/wp-content/themes/pchill/img/noimage.jpg"
+                    alt="Máu Tà Ác: Đỏ"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Colors of Evil: Red</p>
+                <h3 class="viet_name">Máu Tà Ác: Đỏ</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/furiosa-cau-chuyen-tu-max-dien-thumb.jpg"
+                    alt="Furiosa: Câu Chuyện Từ Max Điên"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Furiosa: A Mad Max Saga</p>
+                <h3 class="viet_name">Furiosa: Câu Chuyện Từ Max Điên</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/diem-bao-cua-quy-thumb.jpg"
+                    alt="Điềm Báo Của Quỷ"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">The First Omen</p>
+                <h3 class="viet_name">Điềm Báo Của Quỷ</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/hoi-ngo-quy-du-thumb.jpg"
+                    alt="Hội Ngộ Quỷ Dữ"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Meeting Evil (2012)</p>
+                <h3 class="viet_name">Hội Ngộ Quỷ Dữ</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="heading">Phim Bộ Mới</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://phimvsub.cc/wp-content/themes/pchill/img/noimage.jpg"
+                    alt="Lời Nói Dối Không Thể Cưỡng Lại"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Liars in Love (2024)</p>
+                <h3 class="viet_name">Lời Nói Dối Không Thể Cưỡng Lại</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/luat-phap-va-trat-tu-nan-nhan-dac-biet-phan-6-thumb.jpg"
+                    alt="Luật Pháp Và Trật Tự: Nạn Nhân Đặc Biệt..."
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Law & Order: Special Vic...</p>
+                <h3 class="viet_name">
+                  Luật Pháp Và Trật Tự: Nạn Nhân Đặc Biệt...
+                </h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/luat-phap-va-trat-tu-nan-nhan-dac-biet-phan-7-thumb.jpg"
+                    alt="Luật Pháp Và Trật Tự: Nạn Nhân Đặc Biệt (Phần 7)"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <span class="Eng_name">Law & Order: Special Vic...</span>
+                <h3 class="viet_name">
+                  Luật Pháp Và Trật Tự: Nạn Nhân Đặc Biệt...
+                </h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/luat-phap-va-trat-tu-nan-nhan-dac-biet-phan-9-thumb.jpg"
+                    alt="Luật Pháp Và Trật Tự: Nạn Nhân Đặc Biệt (Phần 9)"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <span class="Eng_name">Law & Order: Special Vic...</span>
+                <h3 class="viet_name">
+                  Luật Pháp Và Trật Tự: Nạn Nhân Đặc Biệt...
+                </h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/luat-phap-va-trat-tu-nan-nhan-dac-biet-phan-10-thumb.jpg"
+                    alt="Luật Pháp Và Trật Tự: Nạn Nhân Đặc Biệt (Phần 10)"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <span class="Eng_name">Law & Order: Special Vic...</span>
+                <h3 class="viet_name">
+                  Luật Pháp Và Trật Tự: Nạn Nhân Đặc Biệt...
+                </h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/luat-phap-va-trat-tu-nan-nhan-dac-biet-phan-11-thumb.jpg"
+                    alt="Luật Pháp Và Trật Tự: Nạn Nhân Đặc Biệt (Phần 11)"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <span class="Eng_name">Law & Order: Special Vic...</span>
+                <h3 class="viet_name">
+                  Luật Pháp Và Trật Tự: Nạn Nhân Đặc Biệt...
+                </h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://phimvsub.cc/wp-content/themes/pchill/img/noimage.jpg"
+                    alt="Liễu Diệp Trích Tinh Thần"
+                  />
+                  <span class="note">TẬP 6 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">My Wife's Double Life</p>
+                <h3 class="viet_name">Liễu Diệp Trích Tinh Thần</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/xin-hay-yeu-duong-voi-ke-hai-huoc-thumb.jpg"
+                    alt="Xin Hãy Yêu Đương Với Kẻ Hài Hước Như Tôi"
+                  />
+                  <span class="note">TẬP 25 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">The Journey to Find True Love</p>
+                <p class="viet_name">
+                  Xin Hãy Yêu Đương Với Kẻ Hài Hước Như Tôi
+                </p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/co-vo-tieu-tien-cua-cong-tu-da-toc-thumb.jpg"
+                    alt="Cô Vợ Tiểu Tiên Của Công Tử Dạ Tộc"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Devil Falls in Love with Fairy</p>
+                <h3 class="viet_name">Cô Vợ Tiểu Tiên Của Công Tử Dạ Tộc</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/mac-vu-van-gian-thumb.jpg"
+                    alt="Mặc Vũ Vân Gian"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">IThe Double (2024)</p>
+                <h3 class="viet_name">Mặc Vũ Vân Gian</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/so-canh-sat-chicago-phan-1-thumb.jpg"
+                    alt="Sở Cảnh Sát Chicago p2"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Chicago P.D. (Season 1)</p>
+                <h3 class="viet_name">Sở Cảnh Sát Chicago</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/so-canh-sat-chicago-phan-2-thumb.jpg"
+                    alt="Sở Cảnh Sát Chicago"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">Chicago P.D. (Season 1)</p>
+                <h3 class="viet_name">Sở Cảnh Sát Chicago</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="heading">Anime Mới</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/one-piece-thumb.jpg"
+                    alt="One Piece"
+                  />
+                  <span class="note">TẬP 1107 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">Vua hải tặc luffy, Đảo Hải Tặc</p>
+                <h3 class="viet_name">One Piece</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/mom-im-sorry-thumb.jpg"
+                    alt="Mom, I’m Sorry"
+                  />
+                  <span class="note">TẬP 3 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">邂逅她的少女时代</p>
+                <h3 class="viet_name">Mom, I’m Sorry</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://phimvsub.cc/wp-content/themes/pchill/img/noimage.jpg"
+                    alt="Vĩnh Sinh (Phần 3)"
+                  />
+                  <span class="note">TẬP 8 + VIETSUB</span>
+                </div>
+                <span class="Eng_name">Immortality (Season 3)</span>
+                <h3 class="viet_name">Vĩnh Sinh (Phần 3)</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/hoc-vien-sieu-anh-hung-phan-7-thumb.jpg"
+                    alt="Học Viện Siêu Anh Hùng "
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <span class="Eng_name">My Hero Academia </span>
+                <h3 class="viet_name">Học Viện Siêu Anh Hùng</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/dragon-raja-binh-minh-ruc-lua-thumb.jpg"
+                    alt="Dragon Raja – Bình Minh Rực Lửa"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <span class="Eng_name">Law & Order: Special Vic...</span>
+                <h3 class="viet_name">Dragon Raja – Bình Minh Rực Lửa</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/the-new-gate-thumb.jpg"
+                    alt="THE NEW GATE"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <span class="Eng_name">THE NEW GATE</span>
+                <h3 class="viet_name">THE NEW GATE</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/luc-do-toi-da-chuyen-sinh-thanh-slime-phan-3-thumb.jpg"
+                    alt="Lúc Đó Tôi Đã Chuyển Sinh Thành Slime"
+                  />
+                  <span class="note">TẬP 6 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">MThat Time I Got Reincarnated...</p>
+                <h3 class="viet_name">Lúc Đó Tôi Đã Chuyển Sinh Thành Slime</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/ooi-tonbo-thumb.jpg"
+                    alt="Ooi! Tonbo"
+                  />
+                  <span class="note">TẬP 9 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">Tオーイ! とんぼ (2024)</p>
+                <p class="viet_name">Ooi! Tonbo</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/the-misfit-of-demon-king-academy-ii-thumb.jpg"
+                    alt="The Misfit of Demon King Academy II"
+                  />
+                  <span class="note">TẬP 19 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">魔王学院的不适任者～</p>
+                <h3 class="viet_name">The Misfit of Demon King Academy II</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/hananoi-va-trieu-chung-tinh-yeu-thumb.jpg"
+                    alt="Sở Cảnh Sát Chicago p2"
+                  />
+                  <span class="note">TẬP 9 + VIETSUB</span>
+                </div>
+                <p class="Eng_name">Chicago P.D. (Season 1)</p>
+                <h3 class="viet_name">花野井くんと恋の病</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/day-so-dau-tien-thumb.jpg"
+                    alt="Dãy Số Đầu Tiên"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">The First Order (2023)</p>
+                <h3 class="viet_name">Dãy Số Đầu Tiên</h3>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="artical display-flex flex-direction-column">
+                <div class="artical-thumnail">
+                  <img
+                    class="film_image"
+                    src="https://cdn.cudem.org/denkisyoujyo-thumb.jpg"
+                    alt="Denkisyoujyo"
+                  />
+                  <span class="note">VIETSUB</span>
+                </div>
+                <p class="Eng_name">The First Order (2023)</p>
+                <h3 class="viet_name">Denkisyoujyo</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
